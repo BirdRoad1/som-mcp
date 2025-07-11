@@ -11,3 +11,20 @@ Supported tools:
 - Request scrape
 - Search for projects
 - Search for users
+
+## Troubleshooting
+
+If the MCP server fails to load, make sure to use an absolute path to the Node.js binary in your config.
+Example claude_desktop_config.json:
+
+```json
+{
+  "mcpServers": {
+    "som-mcp": {
+      "command": "/home/user/nodejs/bin/node",
+      "args": ["/home/user/nodejs/bin/som-mcp"]
+    }
+  }
+} 
+
+```

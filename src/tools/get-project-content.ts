@@ -1,4 +1,4 @@
-import { Tool } from '../tool';
+import { Tool } from '../types/tool.js';
 import { z } from 'zod';
 
 export const register: Tool = server => {

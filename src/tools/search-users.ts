@@ -1,6 +1,6 @@
-import { Tool } from '../tool';
+import { Tool } from '../types/tool.js';
 import z from 'zod';
-import { User } from '../types/som-types';
+import { User } from '../types/som-types.js';
 
 export const register: Tool = server => {
   server.registerTool(

@@ -1,5 +1,5 @@
 import path from 'path';
-import { Tool } from '../tool';
+import { Tool } from '../types/tool.js';
 import { z } from 'zod';
 import { spawnSync } from 'child_process';
 import fs from 'fs';
