@@ -12,6 +12,8 @@ Supported tools:
 - Search for projects
 - Search for users
 
+<img width="1429" height="982" alt="image" src="https://github.com/user-attachments/assets/d22128fe-da7b-4d23-b575-895b3552f74c" />
+
 ## Installation
 
 Run the following command:
