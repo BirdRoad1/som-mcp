@@ -15,6 +15,7 @@
   "bin": "./dist/index.js",
   "author": "jluims",
   "license": "MIT",
+  "repository": "https://github.com/BirdRoad1/som-mcp",
   "private": false,
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.15.1",

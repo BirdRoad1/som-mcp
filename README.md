@@ -12,9 +12,16 @@ Supported tools:
 - Search for projects
 - Search for users
 
-## Troubleshooting
+## Installation
 
-If the MCP server fails to load, make sure to use an absolute path to the Node.js binary in your config.
+Run the following command:
+
+```
+npm i -g som-mcp
+```
+
+Then, find the folder where Node.js is installed and enter the bin folder. There, you will find both the node and som-mcp executables. You can then copy their full paths to use in your claude config.
+
 Example claude_desktop_config.json:
 
 ```json
@@ -25,6 +32,5 @@ Example claude_desktop_config.json:
       "args": ["/home/user/nodejs/bin/som-mcp"]
     }
   }
-} 
-
+}
 ```
